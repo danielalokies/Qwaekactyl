@@ -25,5 +25,5 @@ jobs:
       - name: 🔗Hosting
         run: sudo cloudflared tunnel --url localhost:2554 &
         
-      - name: ✅Online for 1 mins
-        run: sleep 60
+      - name: ✅Online for 5 mins
+        run: sleep 300
